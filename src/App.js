@@ -6,6 +6,7 @@ import SearchPhoto from './components/SearchPhoto';
 import DeletePhoto from './components/DeletePhoto';
 import ViewAll from './components/ViewAll';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import News from './components/News';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/search' element={<SearchPhoto/>}/>
         <Route path='/delete' element={<DeletePhoto/>}/>
         <Route path='/viewall' element={<ViewAll/>}/>
+        <Route path='/news' element={<News/>}/>
       </Routes>
       </BrowserRouter>
      
